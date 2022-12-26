@@ -1,0 +1,16 @@
+461c184f364b2807dc711cf6ce14903b
+const add = require("./add"); // Exercise 1
+
+
+test("Test that add returns the correct result from two numbers", () => {// ✅ Use the add function to add two numbers
+  // ✅ Expect the value toBe the right value
+}); // Exercise 2
+
+test("Test that the add works with negative numbers", () => {// ✅ Use the add function to add two numbers with at least one of them negative
+  // ✅ Expect the value toBe the right value
+}); // Exercise 3
+
+test("Test that there will be an error if you pass in non-numbers", () => {// ✅ Use the add function to add two values with at least one of them not a number
+  // ✅ Expect the function to throw
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFkZC50ZXN0LmpzIl0sIm5hbWVzIjpbImFkZCIsInJlcXVpcmUiLCJ0ZXN0Il0sIm1hcHBpbmdzIjoiQUFBQSxNQUFNQSxHQUFHLEdBQUdDLE9BQU8sQ0FBQyxPQUFELENBQW5CLEMsQ0FFQTs7O0FBQ0FDLElBQUksQ0FBQywyREFBRCxFQUE4RCxNQUFNLENBQ3RFO0FBQ0E7QUFDRCxDQUhHLENBQUosQyxDQUtBOztBQUNBQSxJQUFJLENBQUMsK0NBQUQsRUFBa0QsTUFBTSxDQUMxRDtBQUNBO0FBQ0QsQ0FIRyxDQUFKLEMsQ0FLQTs7QUFDQUEsSUFBSSxDQUFDLDZEQUFELEVBQWdFLE1BQU0sQ0FDeEU7QUFDQTtBQUNELENBSEcsQ0FBSiIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IGFkZCA9IHJlcXVpcmUoXCIuL2FkZFwiKTtcblxuLy8gRXhlcmNpc2UgMVxudGVzdChcIlRlc3QgdGhhdCBhZGQgcmV0dXJucyB0aGUgY29ycmVjdCByZXN1bHQgZnJvbSB0d28gbnVtYmVyc1wiLCAoKSA9PiB7XG4gIC8vIOKchSBVc2UgdGhlIGFkZCBmdW5jdGlvbiB0byBhZGQgdHdvIG51bWJlcnNcbiAgLy8g4pyFIEV4cGVjdCB0aGUgdmFsdWUgdG9CZSB0aGUgcmlnaHQgdmFsdWVcbn0pO1xuXG4vLyBFeGVyY2lzZSAyXG50ZXN0KFwiVGVzdCB0aGF0IHRoZSBhZGQgd29ya3Mgd2l0aCBuZWdhdGl2ZSBudW1iZXJzXCIsICgpID0+IHtcbiAgLy8g4pyFIFVzZSB0aGUgYWRkIGZ1bmN0aW9uIHRvIGFkZCB0d28gbnVtYmVycyB3aXRoIGF0IGxlYXN0IG9uZSBvZiB0aGVtIG5lZ2F0aXZlXG4gIC8vIOKchSBFeHBlY3QgdGhlIHZhbHVlIHRvQmUgdGhlIHJpZ2h0IHZhbHVlXG59KTtcblxuLy8gRXhlcmNpc2UgM1xudGVzdChcIlRlc3QgdGhhdCB0aGVyZSB3aWxsIGJlIGFuIGVycm9yIGlmIHlvdSBwYXNzIGluIG5vbi1udW1iZXJzXCIsICgpID0+IHtcbiAgLy8g4pyFIFVzZSB0aGUgYWRkIGZ1bmN0aW9uIHRvIGFkZCB0d28gdmFsdWVzIHdpdGggYXQgbGVhc3Qgb25lIG9mIHRoZW0gbm90IGEgbnVtYmVyXG4gIC8vIOKchSBFeHBlY3QgdGhlIGZ1bmN0aW9uIHRvIHRocm93XG59KTtcbiJdfQ==

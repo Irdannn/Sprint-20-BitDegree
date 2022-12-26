@@ -1,0 +1,24 @@
+e286ffcdf287f0d27add92fc09ac5c90
+/**
+ * Given an array it returns the numbers bigger than a given minimum
+ * @param {Array} numbers
+ * @param {Number} min
+ * @return {Array}
+ * @example
+ * ([1, -3, 8, 7]) -> [1, 8, 7]
+ * ([3, 5, 9], 4) -> [5, 9]
+ */
+function filterBiggestNumbers(numbers = [], min = 0) {
+  if (!Array.isArray(numbers)) {
+    throw Error("The first argument must be an array");
+  }
+
+  if (typeof min != "number") {
+    throw Error("The second argument must be a number");
+  }
+
+  return numbers.filter(val => val > min);
+}
+
+module.exports = filterBiggestNumbers;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpbHRlckJpZ2dlc3QuanMiXSwibmFtZXMiOlsiZmlsdGVyQmlnZ2VzdE51bWJlcnMiLCJudW1iZXJzIiwibWluIiwiQXJyYXkiLCJpc0FycmF5IiwiRXJyb3IiLCJmaWx0ZXIiLCJ2YWwiLCJtb2R1bGUiLCJleHBvcnRzIl0sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxTQUFTQSxvQkFBVCxDQUE4QkMsT0FBTyxHQUFHLEVBQXhDLEVBQTRDQyxHQUFHLEdBQUcsQ0FBbEQsRUFBcUQ7QUFDbkQsTUFBSSxDQUFDQyxLQUFLLENBQUNDLE9BQU4sQ0FBY0gsT0FBZCxDQUFMLEVBQTZCO0FBQzNCLFVBQU1JLEtBQUssQ0FBQyxxQ0FBRCxDQUFYO0FBQ0Q7O0FBRUQsTUFBSSxPQUFPSCxHQUFQLElBQWMsUUFBbEIsRUFBNEI7QUFDMUIsVUFBTUcsS0FBSyxDQUFDLHNDQUFELENBQVg7QUFDRDs7QUFFRCxTQUFPSixPQUFPLENBQUNLLE1BQVIsQ0FBZ0JDLEdBQUQsSUFBU0EsR0FBRyxHQUFHTCxHQUE5QixDQUFQO0FBQ0Q7O0FBRURNLE1BQU0sQ0FBQ0MsT0FBUCxHQUFpQlQsb0JBQWpCIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBHaXZlbiBhbiBhcnJheSBpdCByZXR1cm5zIHRoZSBudW1iZXJzIGJpZ2dlciB0aGFuIGEgZ2l2ZW4gbWluaW11bVxuICogQHBhcmFtIHtBcnJheX0gbnVtYmVyc1xuICogQHBhcmFtIHtOdW1iZXJ9IG1pblxuICogQHJldHVybiB7QXJyYXl9XG4gKiBAZXhhbXBsZVxuICogKFsxLCAtMywgOCwgN10pIC0+IFsxLCA4LCA3XVxuICogKFszLCA1LCA5XSwgNCkgLT4gWzUsIDldXG4gKi9cbmZ1bmN0aW9uIGZpbHRlckJpZ2dlc3ROdW1iZXJzKG51bWJlcnMgPSBbXSwgbWluID0gMCkge1xuICBpZiAoIUFycmF5LmlzQXJyYXkobnVtYmVycykpIHtcbiAgICB0aHJvdyBFcnJvcihcIlRoZSBmaXJzdCBhcmd1bWVudCBtdXN0IGJlIGFuIGFycmF5XCIpO1xuICB9XG5cbiAgaWYgKHR5cGVvZiBtaW4gIT0gXCJudW1iZXJcIikge1xuICAgIHRocm93IEVycm9yKFwiVGhlIHNlY29uZCBhcmd1bWVudCBtdXN0IGJlIGEgbnVtYmVyXCIpO1xuICB9XG5cbiAgcmV0dXJuIG51bWJlcnMuZmlsdGVyKCh2YWwpID0+IHZhbCA+IG1pbik7XG59XG5cbm1vZHVsZS5leHBvcnRzID0gZmlsdGVyQmlnZ2VzdE51bWJlcnM7XG4iXX0=

@@ -1,0 +1,25 @@
+f70aa511f87e22dbfa3b186021d0d976
+/**
+ * Given a number, it returns the respective singular or plural word
+ * @param {Number} count
+ * @param {String} singular
+ * @param {String} plural
+ * @return {String}
+ * @example
+ * (1, 'woman', 'women') -> woman
+ * (2, 'person', 'people') -> people
+ */
+function getSinguralOrPlural(count, singular, plural) {
+  if (count < 0 || typeof count != "number") {
+    throw new Error("The first parameter needs to be a number 0 or higher");
+  }
+
+  if (count === 1) {
+    return singular;
+  }
+
+  return plural; // return count > 1 ? plural : singular
+}
+
+module.exports = getSinguralOrPlural;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNpbmd1bGFyT3JQbHVyYWwuanMiXSwibmFtZXMiOlsiZ2V0U2luZ3VyYWxPclBsdXJhbCIsImNvdW50Iiwic2luZ3VsYXIiLCJwbHVyYWwiLCJFcnJvciIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsU0FBU0EsbUJBQVQsQ0FBNkJDLEtBQTdCLEVBQW9DQyxRQUFwQyxFQUE4Q0MsTUFBOUMsRUFBc0Q7QUFDcEQsTUFBSUYsS0FBSyxHQUFHLENBQVIsSUFBYSxPQUFPQSxLQUFQLElBQWdCLFFBQWpDLEVBQTJDO0FBQ3pDLFVBQU0sSUFBSUcsS0FBSixDQUFVLHNEQUFWLENBQU47QUFDRDs7QUFDRCxNQUFJSCxLQUFLLEtBQUssQ0FBZCxFQUFpQjtBQUNmLFdBQU9DLFFBQVA7QUFDRDs7QUFDRCxTQUFPQyxNQUFQLENBUG9ELENBUXBEO0FBQ0Q7O0FBRURFLE1BQU0sQ0FBQ0MsT0FBUCxHQUFpQk4sbUJBQWpCIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBHaXZlbiBhIG51bWJlciwgaXQgcmV0dXJucyB0aGUgcmVzcGVjdGl2ZSBzaW5ndWxhciBvciBwbHVyYWwgd29yZFxuICogQHBhcmFtIHtOdW1iZXJ9IGNvdW50XG4gKiBAcGFyYW0ge1N0cmluZ30gc2luZ3VsYXJcbiAqIEBwYXJhbSB7U3RyaW5nfSBwbHVyYWxcbiAqIEByZXR1cm4ge1N0cmluZ31cbiAqIEBleGFtcGxlXG4gKiAoMSwgJ3dvbWFuJywgJ3dvbWVuJykgLT4gd29tYW5cbiAqICgyLCAncGVyc29uJywgJ3Blb3BsZScpIC0+IHBlb3BsZVxuICovXG5mdW5jdGlvbiBnZXRTaW5ndXJhbE9yUGx1cmFsKGNvdW50LCBzaW5ndWxhciwgcGx1cmFsKSB7XG4gIGlmIChjb3VudCA8IDAgfHwgdHlwZW9mIGNvdW50ICE9IFwibnVtYmVyXCIpIHtcbiAgICB0aHJvdyBuZXcgRXJyb3IoXCJUaGUgZmlyc3QgcGFyYW1ldGVyIG5lZWRzIHRvIGJlIGEgbnVtYmVyIDAgb3IgaGlnaGVyXCIpO1xuICB9XG4gIGlmIChjb3VudCA9PT0gMSkge1xuICAgIHJldHVybiBzaW5ndWxhcjtcbiAgfVxuICByZXR1cm4gcGx1cmFsO1xuICAvLyByZXR1cm4gY291bnQgPiAxID8gcGx1cmFsIDogc2luZ3VsYXJcbn1cblxubW9kdWxlLmV4cG9ydHMgPSBnZXRTaW5ndXJhbE9yUGx1cmFsO1xuIl19

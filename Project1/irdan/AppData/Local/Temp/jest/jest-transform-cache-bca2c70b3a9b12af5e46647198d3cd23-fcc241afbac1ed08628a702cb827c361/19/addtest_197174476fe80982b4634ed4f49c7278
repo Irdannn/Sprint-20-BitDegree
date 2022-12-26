@@ -1,0 +1,23 @@
+3a332fdfcb2dce5d64bd001f1862afe6
+const add = require("./add"); // Exercise 1
+
+
+test("Test that add returns the correct result from two numbers", () => {
+  // ✅ Use the add function to add two numbers
+  // ✅ Expect the value toBe the right value
+  expect(add(2, 3)).toBe(5);
+}); // Exercise 2
+
+test("Test that the add works with negative numbers", () => {
+  // ✅ Use the add function to add two numbers with at least one of them negative
+  // ✅ Expect the value toBe the right value
+  expect(add(-1, -3)).toBe(-4);
+}); // Exercise 3
+
+test("Test that there will be an error if you pass in non-numbers", () => {// ✅ Use the add function to add two values with at least one of them not a number
+  // ✅ Expect the function to throw
+  // expect(() => add(1, "1")).toThrowError();
+  // expect(() => add(true, 2)).toThrowError();
+  // expect(() => add([], {})).toThrowError();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFkZC50ZXN0LmpzIl0sIm5hbWVzIjpbImFkZCIsInJlcXVpcmUiLCJ0ZXN0IiwiZXhwZWN0IiwidG9CZSJdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTUEsR0FBRyxHQUFHQyxPQUFPLENBQUMsT0FBRCxDQUFuQixDLENBRUE7OztBQUNBQyxJQUFJLENBQUMsMkRBQUQsRUFBOEQsTUFBTTtBQUN0RTtBQUNBO0FBQ0FDLEVBQUFBLE1BQU0sQ0FBQ0gsR0FBRyxDQUFDLENBQUQsRUFBSSxDQUFKLENBQUosQ0FBTixDQUFrQkksSUFBbEIsQ0FBdUIsQ0FBdkI7QUFDRCxDQUpHLENBQUosQyxDQU1BOztBQUNBRixJQUFJLENBQUMsK0NBQUQsRUFBa0QsTUFBTTtBQUMxRDtBQUNBO0FBQ0FDLEVBQUFBLE1BQU0sQ0FBQ0gsR0FBRyxDQUFDLENBQUMsQ0FBRixFQUFLLENBQUMsQ0FBTixDQUFKLENBQU4sQ0FBb0JJLElBQXBCLENBQXlCLENBQUMsQ0FBMUI7QUFDRCxDQUpHLENBQUosQyxDQU1BOztBQUNBRixJQUFJLENBQUMsNkRBQUQsRUFBZ0UsTUFBTSxDQUN4RTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0QsQ0FORyxDQUFKIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgYWRkID0gcmVxdWlyZShcIi4vYWRkXCIpO1xuXG4vLyBFeGVyY2lzZSAxXG50ZXN0KFwiVGVzdCB0aGF0IGFkZCByZXR1cm5zIHRoZSBjb3JyZWN0IHJlc3VsdCBmcm9tIHR3byBudW1iZXJzXCIsICgpID0+IHtcbiAgLy8g4pyFIFVzZSB0aGUgYWRkIGZ1bmN0aW9uIHRvIGFkZCB0d28gbnVtYmVyc1xuICAvLyDinIUgRXhwZWN0IHRoZSB2YWx1ZSB0b0JlIHRoZSByaWdodCB2YWx1ZVxuICBleHBlY3QoYWRkKDIsIDMpKS50b0JlKDUpO1xufSk7XG5cbi8vIEV4ZXJjaXNlIDJcbnRlc3QoXCJUZXN0IHRoYXQgdGhlIGFkZCB3b3JrcyB3aXRoIG5lZ2F0aXZlIG51bWJlcnNcIiwgKCkgPT4ge1xuICAvLyDinIUgVXNlIHRoZSBhZGQgZnVuY3Rpb24gdG8gYWRkIHR3byBudW1iZXJzIHdpdGggYXQgbGVhc3Qgb25lIG9mIHRoZW0gbmVnYXRpdmVcbiAgLy8g4pyFIEV4cGVjdCB0aGUgdmFsdWUgdG9CZSB0aGUgcmlnaHQgdmFsdWVcbiAgZXhwZWN0KGFkZCgtMSwgLTMpKS50b0JlKC00KTtcbn0pO1xuXG4vLyBFeGVyY2lzZSAzXG50ZXN0KFwiVGVzdCB0aGF0IHRoZXJlIHdpbGwgYmUgYW4gZXJyb3IgaWYgeW91IHBhc3MgaW4gbm9uLW51bWJlcnNcIiwgKCkgPT4ge1xuICAvLyDinIUgVXNlIHRoZSBhZGQgZnVuY3Rpb24gdG8gYWRkIHR3byB2YWx1ZXMgd2l0aCBhdCBsZWFzdCBvbmUgb2YgdGhlbSBub3QgYSBudW1iZXJcbiAgLy8g4pyFIEV4cGVjdCB0aGUgZnVuY3Rpb24gdG8gdGhyb3dcbiAgLy8gZXhwZWN0KCgpID0+IGFkZCgxLCBcIjFcIikpLnRvVGhyb3dFcnJvcigpO1xuICAvLyBleHBlY3QoKCkgPT4gYWRkKHRydWUsIDIpKS50b1Rocm93RXJyb3IoKTtcbiAgLy8gZXhwZWN0KCgpID0+IGFkZChbXSwge30pKS50b1Rocm93RXJyb3IoKTtcbn0pO1xuIl19
